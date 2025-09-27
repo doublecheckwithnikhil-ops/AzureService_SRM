@@ -1,0 +1,13 @@
+services:
+  dab:
+    image: mcr.microsoft.com/azure-databases/data-api-builder:latest
+    container_name: dab-app-simple
+    restart: unless-stopped
+    ports:
+      - "8090:5000"
+    volumes:
+      - ./dab-config.json:/app/dab-config.json:ro
+      - ./.env:/app/.env:ro
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+    working_dir: /app 

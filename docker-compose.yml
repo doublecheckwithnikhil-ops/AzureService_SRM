@@ -1,0 +1,9 @@
+services:
+  dab:
+    build: .
+    container_name: dab-app
+    restart: unless-stopped
+    ports:
+      - "8090:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production

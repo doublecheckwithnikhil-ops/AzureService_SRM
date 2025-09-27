@@ -1,0 +1,13 @@
+To run NGROK : 
+open C:\Users\Administrator\Downloads\ngrok-v3-stable-windows-amd64 (1)\ngrok.exe
+run exe file that opens terminal , in that run  : ngrok http 5000
+
+
+
+To Start DAB : 
+Stop-Process -Name dab -Force -ErrorAction SilentlyContinue
+Remove-Item .\dab-config.json
+dab init `  --database-type "mssql" `  --connection-string "@env('my-connection-string')" `  --host-mode "development"
+.\automate_add_update_entity.ps1
+dab validate
+dab start

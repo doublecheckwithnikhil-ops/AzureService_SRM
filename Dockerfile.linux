@@ -1,0 +1,24 @@
+# Dockerfile.linux
+FROM mcr.microsoft.com/azure-databases/data-api-builder:latest
+
+WORKDIR /App
+
+# Copy config & scripts (config should contain @env('DAB_CONNECTION_STRING'))
+COPY dab-config.json /App/dab-config.json
+COPY entities.json /App/entities.json
+COPY automate_add_update_entity.sh /App/automate_add_update_entity.sh
+# copy start script but do NOT use it as container entrypoint (it's optional)
+COPY start-dab.sh /App/start-dab.sh
+
+# If you need to trust an internal CA, add it here (optional)
+# COPY certs/onprem-root-ca.crt /usr/local/share/ca-certificates/onprem-root-ca.crt
+# RUN apt-get update && apt-get install -y ca-certificates && update-ca-certificates && rm -rf /var/lib/apt/lists/*
+
+# Make helper scripts executable (they are not the entrypoint)
+RUN chmod +x /App/automate_add_update_entity.sh /App/start-dab.sh || true
+
+# Expose DAB default port
+EXPOSE 5000
+
+# NOTE: DO NOT override the base image CMD/ENTRYPOINT. The base image starts the DAB runtime. 
+# If you override the CMD, ensure it 'exec's the DAB binary to keep it as PID 1.
