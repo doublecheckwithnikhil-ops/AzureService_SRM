@@ -20,7 +20,7 @@
     },
     "host": {
       "cors": {
-        "origins": [],
+        "origins": ["*"],
         "allow-credentials": false
       },
       "authentication": {
@@ -186,474 +186,6 @@
         }
       ]
     },
-    "PUR_BGT_MAJ_CAT_PR_V_PLAN": {
-      "source": {
-        "object": "[dbo].[PUR_BGT_MAJ_CAT_PR_V_PLAN]",
-        "type": "table"
-      },
-      "graphql": {
-        "enabled": true,
-        "type": {
-          "singular": "PUR_BGT_MAJ_CAT_PR_V_PLAN",
-          "plural": "PUR_BGT_MAJ_CAT_PR_V_PLANs"
-        }
-      },
-      "rest": {
-        "enabled": true
-      },
-      "permissions": [
-        {
-          "role": "anonymous",
-          "actions": [
-            {
-              "action": "read"
-            }
-          ]
-        }
-      ]
-    },
-    "PUR_BGT_MAJ_CAT_RPR_V_PLAN": {
-      "source": {
-        "object": "[dbo].[PUR_BGT_MAJ_CAT_RPR_V_PLAN]",
-        "type": "table"
-      },
-      "graphql": {
-        "enabled": true,
-        "type": {
-          "singular": "PUR_BGT_MAJ_CAT_RPR_V_PLAN",
-          "plural": "PUR_BGT_MAJ_CAT_RPR_V_PLANs"
-        }
-      },
-      "rest": {
-        "enabled": true
-      },
-      "permissions": [
-        {
-          "role": "anonymous",
-          "actions": [
-            {
-              "action": "read"
-            }
-          ]
-        }
-      ]
-    },
-    "PUR_BGT_MAJ_CAT_SZ_PR_V_PLAN": {
-      "source": {
-        "object": "[dbo].[PUR_BGT_MAJ_CAT_SZ_PR_V_PLAN]",
-        "type": "table"
-      },
-      "graphql": {
-        "enabled": true,
-        "type": {
-          "singular": "PUR_BGT_MAJ_CAT_SZ_PR_V_PLAN",
-          "plural": "PUR_BGT_MAJ_CAT_SZ_PR_V_PLANs"
-        }
-      },
-      "rest": {
-        "enabled": true
-      },
-      "permissions": [
-        {
-          "role": "anonymous",
-          "actions": [
-            {
-              "action": "read"
-            }
-          ]
-        }
-      ]
-    },
-    "PUR_BGT_MAJ_CAT_SZ_RPR_V_PLAN": {
-      "source": {
-        "object": "[dbo].[PUR_BGT_MAJ_CAT_SZ_RPR_V_PLAN]",
-        "type": "table"
-      },
-      "graphql": {
-        "enabled": true,
-        "type": {
-          "singular": "PUR_BGT_MAJ_CAT_SZ_RPR_V_PLAN",
-          "plural": "PUR_BGT_MAJ_CAT_SZ_RPR_V_PLANs"
-        }
-      },
-      "rest": {
-        "enabled": true
-      },
-      "permissions": [
-        {
-          "role": "anonymous",
-          "actions": [
-            {
-              "action": "read"
-            }
-          ]
-        }
-      ]
-    },
-    "PUR_BGT_MAJ_CLR_PR_V_PLAN": {
-      "source": {
-        "object": "[dbo].[PUR_BGT_MAJ_CLR_PR_V_PLAN]",
-        "type": "table"
-      },
-      "graphql": {
-        "enabled": true,
-        "type": {
-          "singular": "PUR_BGT_MAJ_CLR_PR_V_PLAN",
-          "plural": "PUR_BGT_MAJ_CLR_PR_V_PLANs"
-        }
-      },
-      "rest": {
-        "enabled": true
-      },
-      "permissions": [
-        {
-          "role": "anonymous",
-          "actions": [
-            {
-              "action": "read"
-            }
-          ]
-        }
-      ]
-    },
-    "PUR_BGT_MAJ_CLR_RPR_V_PLAN": {
-      "source": {
-        "object": "[dbo].[PUR_BGT_MAJ_CLR_RPR_V_PLAN]",
-        "type": "table"
-      },
-      "graphql": {
-        "enabled": true,
-        "type": {
-          "singular": "PUR_BGT_MAJ_CLR_RPR_V_PLAN",
-          "plural": "PUR_BGT_MAJ_CLR_RPR_V_PLANs"
-        }
-      },
-      "rest": {
-        "enabled": true
-      },
-      "permissions": [
-        {
-          "role": "anonymous",
-          "actions": [
-            {
-              "action": "read"
-            }
-          ]
-        }
-      ]
-    },
-    "PUR_BGT_MAJ_FABRIC_2_PR_V_PLAN": {
-      "source": {
-        "object": "[dbo].[PUR_BGT_MAJ_FABRIC_2_PR_V_PLAN]",
-        "type": "table"
-      },
-      "graphql": {
-        "enabled": true,
-        "type": {
-          "singular": "PUR_BGT_MAJ_FABRIC_2_PR_V_PLAN",
-          "plural": "PUR_BGT_MAJ_FABRIC_2_PR_V_PLANs"
-        }
-      },
-      "rest": {
-        "enabled": true
-      },
-      "permissions": [
-        {
-          "role": "anonymous",
-          "actions": [
-            {
-              "action": "read"
-            }
-          ]
-        }
-      ]
-    },
-    "PUR_BGT_MAJ_FABRIC_2_RPR_V_PLAN": {
-      "source": {
-        "object": "[dbo].[PUR_BGT_MAJ_FABRIC_2_RPR_V_PLAN]",
-        "type": "table"
-      },
-      "graphql": {
-        "enabled": true,
-        "type": {
-          "singular": "PUR_BGT_MAJ_FABRIC_2_RPR_V_PLAN",
-          "plural": "PUR_BGT_MAJ_FABRIC_2_RPR_V_PLANs"
-        }
-      },
-      "rest": {
-        "enabled": true
-      },
-      "permissions": [
-        {
-          "role": "anonymous",
-          "actions": [
-            {
-              "action": "read"
-            }
-          ]
-        }
-      ]
-    },
-    "PUR_BGT_MAJ_MACRO_MVGR_PR_V_PLAN": {
-      "source": {
-        "object": "[dbo].[PUR_BGT_MAJ_MACRO_MVGR_PR_V_PLAN]",
-        "type": "table"
-      },
-      "graphql": {
-        "enabled": true,
-        "type": {
-          "singular": "PUR_BGT_MAJ_MACRO_MVGR_PR_V_PLAN",
-          "plural": "PUR_BGT_MAJ_MACRO_MVGR_PR_V_PLANs"
-        }
-      },
-      "rest": {
-        "enabled": true
-      },
-      "permissions": [
-        {
-          "role": "anonymous",
-          "actions": [
-            {
-              "action": "read"
-            }
-          ]
-        }
-      ]
-    },
-    "PUR_BGT_MAJ_MACRO_MVGR_RPR_V_PLAN": {
-      "source": {
-        "object": "[dbo].[PUR_BGT_MAJ_MACRO_MVGR_RPR_V_PLAN]",
-        "type": "table"
-      },
-      "graphql": {
-        "enabled": true,
-        "type": {
-          "singular": "PUR_BGT_MAJ_MACRO_MVGR_RPR_V_PLAN",
-          "plural": "PUR_BGT_MAJ_MACRO_MVGR_RPR_V_PLANs"
-        }
-      },
-      "rest": {
-        "enabled": true
-      },
-      "permissions": [
-        {
-          "role": "anonymous",
-          "actions": [
-            {
-              "action": "read"
-            }
-          ]
-        }
-      ]
-    },
-    "PUR_BGT_MAJ_MRP_PR_V_PLAN": {
-      "source": {
-        "object": "[dbo].[PUR_BGT_MAJ_MRP_PR_V_PLAN]",
-        "type": "table"
-      },
-      "graphql": {
-        "enabled": true,
-        "type": {
-          "singular": "PUR_BGT_MAJ_MRP_PR_V_PLAN",
-          "plural": "PUR_BGT_MAJ_MRP_PR_V_PLANs"
-        }
-      },
-      "rest": {
-        "enabled": true
-      },
-      "permissions": [
-        {
-          "role": "anonymous",
-          "actions": [
-            {
-              "action": "read"
-            }
-          ]
-        }
-      ]
-    },
-    "PUR_BGT_MAJ_MRP_RPR_V_PLAN": {
-      "source": {
-        "object": "[dbo].[PUR_BGT_MAJ_MRP_RPR_V_PLAN]",
-        "type": "table"
-      },
-      "graphql": {
-        "enabled": true,
-        "type": {
-          "singular": "PUR_BGT_MAJ_MRP_RPR_V_PLAN",
-          "plural": "PUR_BGT_MAJ_MRP_RPR_V_PLANs"
-        }
-      },
-      "rest": {
-        "enabled": true
-      },
-      "permissions": [
-        {
-          "role": "anonymous",
-          "actions": [
-            {
-              "action": "read"
-            }
-          ]
-        }
-      ]
-    },
-    "PUR_BGT_MAJ_MVGR_1_PR_V_PLAN": {
-      "source": {
-        "object": "[dbo].[PUR_BGT_MAJ_MVGR_1_PR_V_PLAN]",
-        "type": "table"
-      },
-      "graphql": {
-        "enabled": true,
-        "type": {
-          "singular": "PUR_BGT_MAJ_MVGR_1_PR_V_PLAN",
-          "plural": "PUR_BGT_MAJ_MVGR_1_PR_V_PLANs"
-        }
-      },
-      "rest": {
-        "enabled": true
-      },
-      "permissions": [
-        {
-          "role": "anonymous",
-          "actions": [
-            {
-              "action": "read"
-            }
-          ]
-        }
-      ]
-    },
-    "PUR_BGT_MAJ_MVGR_1_RPR_V_PLAN": {
-      "source": {
-        "object": "[dbo].[PUR_BGT_MAJ_MVGR_1_RPR_V_PLAN]",
-        "type": "table"
-      },
-      "graphql": {
-        "enabled": true,
-        "type": {
-          "singular": "PUR_BGT_MAJ_MVGR_1_RPR_V_PLAN",
-          "plural": "PUR_BGT_MAJ_MVGR_1_RPR_V_PLANs"
-        }
-      },
-      "rest": {
-        "enabled": true
-      },
-      "permissions": [
-        {
-          "role": "anonymous",
-          "actions": [
-            {
-              "action": "read"
-            }
-          ]
-        }
-      ]
-    },
-    "PUR_BGT_MAJ_RNG_SEG_PR_V_PLAN": {
-      "source": {
-        "object": "[dbo].[PUR_BGT_MAJ_RNG_SEG_PR_V_PLAN]",
-        "type": "table"
-      },
-      "graphql": {
-        "enabled": true,
-        "type": {
-          "singular": "PUR_BGT_MAJ_RNG_SEG_PR_V_PLAN",
-          "plural": "PUR_BGT_MAJ_RNG_SEG_PR_V_PLANs"
-        }
-      },
-      "rest": {
-        "enabled": true
-      },
-      "permissions": [
-        {
-          "role": "anonymous",
-          "actions": [
-            {
-              "action": "read"
-            }
-          ]
-        }
-      ]
-    },
-    "PUR_BGT_MAJ_RNG_SEG_RPR_V_PLAN": {
-      "source": {
-        "object": "[dbo].[PUR_BGT_MAJ_RNG_SEG_RPR_V_PLAN]",
-        "type": "table"
-      },
-      "graphql": {
-        "enabled": true,
-        "type": {
-          "singular": "PUR_BGT_MAJ_RNG_SEG_RPR_V_PLAN",
-          "plural": "PUR_BGT_MAJ_RNG_SEG_RPR_V_PLANs"
-        }
-      },
-      "rest": {
-        "enabled": true
-      },
-      "permissions": [
-        {
-          "role": "anonymous",
-          "actions": [
-            {
-              "action": "read"
-            }
-          ]
-        }
-      ]
-    },
-    "PUR_BGT_MC_PR_V_PLAN": {
-      "source": {
-        "object": "[dbo].[PUR_BGT_MC_PR_V_PLAN]",
-        "type": "table"
-      },
-      "graphql": {
-        "enabled": true,
-        "type": {
-          "singular": "PUR_BGT_MC_PR_V_PLAN",
-          "plural": "PUR_BGT_MC_PR_V_PLANs"
-        }
-      },
-      "rest": {
-        "enabled": true
-      },
-      "permissions": [
-        {
-          "role": "anonymous",
-          "actions": [
-            {
-              "action": "read"
-            }
-          ]
-        }
-      ]
-    },
-    "PUR_BGT_MC_RPR_V_PLAN": {
-      "source": {
-        "object": "[dbo].[PUR_BGT_MC_RPR_V_PLAN]",
-        "type": "table"
-      },
-      "graphql": {
-        "enabled": true,
-        "type": {
-          "singular": "PUR_BGT_MC_RPR_V_PLAN",
-          "plural": "PUR_BGT_MC_RPR_V_PLANs"
-        }
-      },
-      "rest": {
-        "enabled": true
-      },
-      "permissions": [
-        {
-          "role": "anonymous",
-          "actions": [
-            {
-              "action": "read"
-            }
-          ]
-        }
-      ]
-    },
     "ET_SALES_DATA": {
       "source": {
         "object": "[dbo].[DAILY_SALE_DATA_GEN_ART_CLR_WISE]",
@@ -690,630 +222,6 @@
         "type": {
           "singular": "ET_ART_Broader_Menu_DATA",
           "plural": "ET_ART_Broader_Menu_DATAs"
-        }
-      },
-      "rest": {
-        "enabled": true
-      },
-      "permissions": [
-        {
-          "role": "anonymous",
-          "actions": [
-            {
-              "action": "read"
-            }
-          ]
-        }
-      ]
-    },
-    "SALE_BGT_ST_MAJ_CAT_SEG_DISP_Q_PLAN": {
-      "source": {
-        "object": "[dbo].[SALE_BGT_ST_MAJ_CAT_SEG_DISP_Q_PLAN]",
-        "type": "table"
-      },
-      "graphql": {
-        "enabled": true,
-        "type": {
-          "singular": "SALE_BGT_ST_MAJ_CAT_SEG_DISP_Q_PLAN",
-          "plural": "SALE_BGT_ST_MAJ_CAT_SEG_DISP_Q_PLANs"
-        }
-      },
-      "rest": {
-        "enabled": true
-      },
-      "permissions": [
-        {
-          "role": "anonymous",
-          "actions": [
-            {
-              "action": "read"
-            }
-          ]
-        }
-      ]
-    },
-    "SALE_BGT_ST_MAJ_CAT_SEG_DISP_V_PLAN": {
-      "source": {
-        "object": "[dbo].[SALE_BGT_ST_MAJ_CAT_SEG_DISP_V_PLAN]",
-        "type": "table"
-      },
-      "graphql": {
-        "enabled": true,
-        "type": {
-          "singular": "SALE_BGT_ST_MAJ_CAT_SEG_DISP_V_PLAN",
-          "plural": "SALE_BGT_ST_MAJ_CAT_SEG_DISP_V_PLANs"
-        }
-      },
-      "rest": {
-        "enabled": true
-      },
-      "permissions": [
-        {
-          "role": "anonymous",
-          "actions": [
-            {
-              "action": "read"
-            }
-          ]
-        }
-      ]
-    },
-    "SALE_BGT_ST_MAJ_CAT_SEG_SALE_Q_PLAN": {
-      "source": {
-        "object": "[dbo].[SALE_BGT_ST_MAJ_CAT_SEG_SALE_Q_PLAN]",
-        "type": "table"
-      },
-      "graphql": {
-        "enabled": true,
-        "type": {
-          "singular": "SALE_BGT_ST_MAJ_CAT_SEG_SALE_Q_PLAN",
-          "plural": "SALE_BGT_ST_MAJ_CAT_SEG_SALE_Q_PLANs"
-        }
-      },
-      "rest": {
-        "enabled": true
-      },
-      "permissions": [
-        {
-          "role": "anonymous",
-          "actions": [
-            {
-              "action": "read"
-            }
-          ]
-        }
-      ]
-    },
-    "SALE_BGT_ST_MAJ_CAT_SEG_SALE_V_PLAN": {
-      "source": {
-        "object": "[dbo].[SALE_BGT_ST_MAJ_CAT_SEG_SALE_V_PLAN]",
-        "type": "table"
-      },
-      "graphql": {
-        "enabled": true,
-        "type": {
-          "singular": "SALE_BGT_ST_MAJ_CAT_SEG_SALE_V_PLAN",
-          "plural": "SALE_BGT_ST_MAJ_CAT_SEG_SALE_V_PLANs"
-        }
-      },
-      "rest": {
-        "enabled": true
-      },
-      "permissions": [
-        {
-          "role": "anonymous",
-          "actions": [
-            {
-              "action": "read"
-            }
-          ]
-        }
-      ]
-    },
-    "SALE_BGT_ST_MAJ_FABRIC2_DISP_Q_PLAN": {
-      "source": {
-        "object": "[dbo].[SALE_BGT_ST_MAJ_FABRIC2_DISP_Q_PLAN]",
-        "type": "table"
-      },
-      "graphql": {
-        "enabled": true,
-        "type": {
-          "singular": "SALE_BGT_ST_MAJ_FABRIC2_DISP_Q_PLAN",
-          "plural": "SALE_BGT_ST_MAJ_FABRIC2_DISP_Q_PLANs"
-        }
-      },
-      "rest": {
-        "enabled": true
-      },
-      "permissions": [
-        {
-          "role": "anonymous",
-          "actions": [
-            {
-              "action": "read"
-            }
-          ]
-        }
-      ]
-    },
-    "SALE_BGT_ST_MAJ_FABRIC2_DISP_V_PLAN": {
-      "source": {
-        "object": "[dbo].[SALE_BGT_ST_MAJ_FABRIC2_DISP_V_PLAN]",
-        "type": "table"
-      },
-      "graphql": {
-        "enabled": true,
-        "type": {
-          "singular": "SALE_BGT_ST_MAJ_FABRIC2_DISP_V_PLAN",
-          "plural": "SALE_BGT_ST_MAJ_FABRIC2_DISP_V_PLANs"
-        }
-      },
-      "rest": {
-        "enabled": true
-      },
-      "permissions": [
-        {
-          "role": "anonymous",
-          "actions": [
-            {
-              "action": "read"
-            }
-          ]
-        }
-      ]
-    },
-    "SALE_BGT_ST_MAJ_FABRIC2_SALE_Q_PLAN": {
-      "source": {
-        "object": "[dbo].[SALE_BGT_ST_MAJ_FABRIC2_SALE_Q_PLAN]",
-        "type": "table"
-      },
-      "graphql": {
-        "enabled": true,
-        "type": {
-          "singular": "SALE_BGT_ST_MAJ_FABRIC2_SALE_Q_PLAN",
-          "plural": "SALE_BGT_ST_MAJ_FABRIC2_SALE_Q_PLANs"
-        }
-      },
-      "rest": {
-        "enabled": true
-      },
-      "permissions": [
-        {
-          "role": "anonymous",
-          "actions": [
-            {
-              "action": "read"
-            }
-          ]
-        }
-      ]
-    },
-    "SALE_BGT_ST_MAJ_FABRIC2_SALE_V_PLAN": {
-      "source": {
-        "object": "[dbo].[SALE_BGT_ST_MAJ_FABRIC2_SALE_V_PLAN]",
-        "type": "table"
-      },
-      "graphql": {
-        "enabled": true,
-        "type": {
-          "singular": "SALE_BGT_ST_MAJ_FABRIC2_SALE_V_PLAN",
-          "plural": "SALE_BGT_ST_MAJ_FABRIC2_SALE_V_PLANs"
-        }
-      },
-      "rest": {
-        "enabled": true
-      },
-      "permissions": [
-        {
-          "role": "anonymous",
-          "actions": [
-            {
-              "action": "read"
-            }
-          ]
-        }
-      ]
-    },
-    "SALE_BGT_ST_MAJ_MACRO_MVGR_DISP_Q_PLAN": {
-      "source": {
-        "object": "[dbo].[SALE_BGT_ST_MAJ_MACRO_MVGR_DISP_Q_PLAN]",
-        "type": "table"
-      },
-      "graphql": {
-        "enabled": true,
-        "type": {
-          "singular": "SALE_BGT_ST_MAJ_MACRO_MVGR_DISP_Q_PLAN",
-          "plural": "SALE_BGT_ST_MAJ_MACRO_MVGR_DISP_Q_PLANs"
-        }
-      },
-      "rest": {
-        "enabled": true
-      },
-      "permissions": [
-        {
-          "role": "anonymous",
-          "actions": [
-            {
-              "action": "read"
-            }
-          ]
-        }
-      ]
-    },
-    "SALE_BGT_ST_MAJ_MACRO_MVGR_DISP_V_PLAN": {
-      "source": {
-        "object": "[dbo].[SALE_BGT_ST_MAJ_MACRO_MVGR_DISP_V_PLAN]",
-        "type": "table"
-      },
-      "graphql": {
-        "enabled": true,
-        "type": {
-          "singular": "SALE_BGT_ST_MAJ_MACRO_MVGR_DISP_V_PLAN",
-          "plural": "SALE_BGT_ST_MAJ_MACRO_MVGR_DISP_V_PLANs"
-        }
-      },
-      "rest": {
-        "enabled": true
-      },
-      "permissions": [
-        {
-          "role": "anonymous",
-          "actions": [
-            {
-              "action": "read"
-            }
-          ]
-        }
-      ]
-    },
-    "SALE_BGT_ST_MAJ_MACRO_MVGR_SALE_Q_PLAN": {
-      "source": {
-        "object": "[dbo].[SALE_BGT_ST_MAJ_MACRO_MVGR_SALE_Q_PLAN]",
-        "type": "table"
-      },
-      "graphql": {
-        "enabled": true,
-        "type": {
-          "singular": "SALE_BGT_ST_MAJ_MACRO_MVGR_SALE_Q_PLAN",
-          "plural": "SALE_BGT_ST_MAJ_MACRO_MVGR_SALE_Q_PLANs"
-        }
-      },
-      "rest": {
-        "enabled": true
-      },
-      "permissions": [
-        {
-          "role": "anonymous",
-          "actions": [
-            {
-              "action": "read"
-            }
-          ]
-        }
-      ]
-    },
-    "SALE_BGT_ST_MAJ_MACRO_MVGR_SALE_V_PLAN": {
-      "source": {
-        "object": "[dbo].[SALE_BGT_ST_MAJ_MACRO_MVGR_SALE_V_PLAN]",
-        "type": "table"
-      },
-      "graphql": {
-        "enabled": true,
-        "type": {
-          "singular": "SALE_BGT_ST_MAJ_MACRO_MVGR_SALE_V_PLAN",
-          "plural": "SALE_BGT_ST_MAJ_MACRO_MVGR_SALE_V_PLANs"
-        }
-      },
-      "rest": {
-        "enabled": true
-      },
-      "permissions": [
-        {
-          "role": "anonymous",
-          "actions": [
-            {
-              "action": "read"
-            }
-          ]
-        }
-      ]
-    },
-    "SALE_BGT_ST_MAJ_VND_DISP_Q_PLAN": {
-      "source": {
-        "object": "[dbo].[SALE_BGT_ST_MAJ_VND_DISP_Q_PLAN]",
-        "type": "table"
-      },
-      "graphql": {
-        "enabled": true,
-        "type": {
-          "singular": "SALE_BGT_ST_MAJ_VND_DISP_Q_PLAN",
-          "plural": "SALE_BGT_ST_MAJ_VND_DISP_Q_PLANs"
-        }
-      },
-      "rest": {
-        "enabled": true
-      },
-      "permissions": [
-        {
-          "role": "anonymous",
-          "actions": [
-            {
-              "action": "read"
-            }
-          ]
-        }
-      ]
-    },
-    "SALE_BGT_ST_MAJ_VND_DISP_V_PLAN": {
-      "source": {
-        "object": "[dbo].[SALE_BGT_ST_MAJ_VND_DISP_V_PLAN]",
-        "type": "table"
-      },
-      "graphql": {
-        "enabled": true,
-        "type": {
-          "singular": "SALE_BGT_ST_MAJ_VND_DISP_V_PLAN",
-          "plural": "SALE_BGT_ST_MAJ_VND_DISP_V_PLANs"
-        }
-      },
-      "rest": {
-        "enabled": true
-      },
-      "permissions": [
-        {
-          "role": "anonymous",
-          "actions": [
-            {
-              "action": "read"
-            }
-          ]
-        }
-      ]
-    },
-    "SALE_BGT_ST_MAJ_VND_SALE_Q_PLAN": {
-      "source": {
-        "object": "[dbo].[SALE_BGT_ST_MAJ_VND_SALE_Q_PLAN]",
-        "type": "table"
-      },
-      "graphql": {
-        "enabled": true,
-        "type": {
-          "singular": "SALE_BGT_ST_MAJ_VND_SALE_Q_PLAN",
-          "plural": "SALE_BGT_ST_MAJ_VND_SALE_Q_PLANs"
-        }
-      },
-      "rest": {
-        "enabled": true
-      },
-      "permissions": [
-        {
-          "role": "anonymous",
-          "actions": [
-            {
-              "action": "read"
-            }
-          ]
-        }
-      ]
-    },
-    "SALE_BGT_ST_MAJ_VND_SALE_V_PLAN": {
-      "source": {
-        "object": "[dbo].[SALE_BGT_ST_MAJ_VND_SALE_V_PLAN]",
-        "type": "table"
-      },
-      "graphql": {
-        "enabled": true,
-        "type": {
-          "singular": "SALE_BGT_ST_MAJ_VND_SALE_V_PLAN",
-          "plural": "SALE_BGT_ST_MAJ_VND_SALE_V_PLANs"
-        }
-      },
-      "rest": {
-        "enabled": true
-      },
-      "permissions": [
-        {
-          "role": "anonymous",
-          "actions": [
-            {
-              "action": "read"
-            }
-          ]
-        }
-      ]
-    },
-    "SALE_BGT_ST_MAJ_CAT_DISP_Q_PLAN": {
-      "source": {
-        "object": "[dbo].[SALE_BGT_ST_MAJ_CAT_DISP_Q_PLAN]",
-        "type": "table"
-      },
-      "graphql": {
-        "enabled": true,
-        "type": {
-          "singular": "SALE_BGT_ST_MAJ_CAT_DISP_Q_PLAN",
-          "plural": "SALE_BGT_ST_MAJ_CAT_DISP_Q_PLANs"
-        }
-      },
-      "rest": {
-        "enabled": true
-      },
-      "permissions": [
-        {
-          "role": "anonymous",
-          "actions": [
-            {
-              "action": "read"
-            }
-          ]
-        }
-      ]
-    },
-    "SALE_BGT_ST_MAJ_CAT_DISP_V_PLAN": {
-      "source": {
-        "object": "[dbo].[SALE_BGT_ST_MAJ_CAT_DISP_V_PLAN]",
-        "type": "table"
-      },
-      "graphql": {
-        "enabled": true,
-        "type": {
-          "singular": "SALE_BGT_ST_MAJ_CAT_DISP_V_PLAN",
-          "plural": "SALE_BGT_ST_MAJ_CAT_DISP_V_PLANs"
-        }
-      },
-      "rest": {
-        "enabled": true
-      },
-      "permissions": [
-        {
-          "role": "anonymous",
-          "actions": [
-            {
-              "action": "read"
-            }
-          ]
-        }
-      ]
-    },
-    "SALE_BGT_ST_MAJ_CAT_SALE_Q_PLAN": {
-      "source": {
-        "object": "[dbo].[SALE_BGT_ST_MAJ_CAT_SALE_Q_PLAN]",
-        "type": "table"
-      },
-      "graphql": {
-        "enabled": true,
-        "type": {
-          "singular": "SALE_BGT_ST_MAJ_CAT_SALE_Q_PLAN",
-          "plural": "SALE_BGT_ST_MAJ_CAT_SALE_Q_PLANs"
-        }
-      },
-      "rest": {
-        "enabled": true
-      },
-      "permissions": [
-        {
-          "role": "anonymous",
-          "actions": [
-            {
-              "action": "read"
-            }
-          ]
-        }
-      ]
-    },
-    "SALE_BGT_ST_MAJ_CAT_SALE_V_PLAN": {
-      "source": {
-        "object": "[dbo].[SALE_BGT_ST_MAJ_CAT_SALE_V_PLAN]",
-        "type": "table"
-      },
-      "graphql": {
-        "enabled": true,
-        "type": {
-          "singular": "SALE_BGT_ST_MAJ_CAT_SALE_V_PLAN",
-          "plural": "SALE_BGT_ST_MAJ_CAT_SALE_V_PLANs"
-        }
-      },
-      "rest": {
-        "enabled": true
-      },
-      "permissions": [
-        {
-          "role": "anonymous",
-          "actions": [
-            {
-              "action": "read"
-            }
-          ]
-        }
-      ]
-    },
-    "SALE_BGT_ST_MAJ_CAT_CLR_DISP_Q_PLAN": {
-      "source": {
-        "object": "[dbo].[SALE_BGT_ST_MAJ_CAT_CLR_DISP_Q_PLAN]",
-        "type": "table"
-      },
-      "graphql": {
-        "enabled": true,
-        "type": {
-          "singular": "SALE_BGT_ST_MAJ_CAT_CLR_DISP_Q_PLAN",
-          "plural": "SALE_BGT_ST_MAJ_CAT_CLR_DISP_Q_PLANs"
-        }
-      },
-      "rest": {
-        "enabled": true
-      },
-      "permissions": [
-        {
-          "role": "anonymous",
-          "actions": [
-            {
-              "action": "read"
-            }
-          ]
-        }
-      ]
-    },
-    "SALE_BGT_ST_MAJ_CAT_CLR_DISP_V_PLAN": {
-      "source": {
-        "object": "[dbo].[SALE_BGT_ST_MAJ_CAT_CLR_DISP_V_PLAN]",
-        "type": "table"
-      },
-      "graphql": {
-        "enabled": true,
-        "type": {
-          "singular": "SALE_BGT_ST_MAJ_CAT_CLR_DISP_V_PLAN",
-          "plural": "SALE_BGT_ST_MAJ_CAT_CLR_DISP_V_PLANs"
-        }
-      },
-      "rest": {
-        "enabled": true
-      },
-      "permissions": [
-        {
-          "role": "anonymous",
-          "actions": [
-            {
-              "action": "read"
-            }
-          ]
-        }
-      ]
-    },
-    "SALE_BGT_ST_MAJ_CAT_CLR_SALE_Q_PLAN": {
-      "source": {
-        "object": "[dbo].[SALE_BGT_ST_MAJ_CAT_CLR_SALE_Q_PLAN]",
-        "type": "table"
-      },
-      "graphql": {
-        "enabled": true,
-        "type": {
-          "singular": "SALE_BGT_ST_MAJ_CAT_CLR_SALE_Q_PLAN",
-          "plural": "SALE_BGT_ST_MAJ_CAT_CLR_SALE_Q_PLANs"
-        }
-      },
-      "rest": {
-        "enabled": true
-      },
-      "permissions": [
-        {
-          "role": "anonymous",
-          "actions": [
-            {
-              "action": "read"
-            }
-          ]
-        }
-      ]
-    },
-    "SALE_BGT_ST_MAJ_CAT_CLR_SALE_V_PLAN": {
-      "source": {
-        "object": "[dbo].[SALE_BGT_ST_MAJ_CAT_CLR_SALE_V_PLAN]",
-        "type": "table"
-      },
-      "graphql": {
-        "enabled": true,
-        "type": {
-          "singular": "SALE_BGT_ST_MAJ_CAT_CLR_SALE_V_PLAN",
-          "plural": "SALE_BGT_ST_MAJ_CAT_CLR_SALE_V_PLANs"
         }
       },
       "rest": {
@@ -1616,7 +524,293 @@
         }
       ]
     },
-    "DAILY_SALE_DATA_GEN_ART_WISE_DRAFT": {
+    "VAR_GEN_ART_SIZE_CLR": {
+      "source": {
+        "object": "[dbo].VAR_GEN_ART_SIZE_CLR",
+        "type": "table"
+      },
+      "graphql": {
+        "enabled": true,
+        "type": {
+          "singular": "VAR_GEN_ART_SIZE_CLR",
+          "plural": "VAR_GEN_ART_SIZE_CLRs"
+        }
+      },
+      "rest": {
+        "enabled": true
+      },
+      "permissions": [
+        {
+          "role": "anonymous",
+          "actions": [
+            {
+              "action": "read"
+            }
+          ]
+        }
+      ]
+    },
+    "GEN_ART_HIERACHY": {
+      "source": {
+        "object": "[dbo].GEN_ART_HIERACHY",
+        "type": "table"
+      },
+      "graphql": {
+        "enabled": true,
+        "type": {
+          "singular": "GEN_ART_HIERACHY",
+          "plural": "GEN_ART_HIERACHies"
+        }
+      },
+      "rest": {
+        "enabled": true
+      },
+      "permissions": [
+        {
+          "role": "anonymous",
+          "actions": [
+            {
+              "action": "read"
+            }
+          ]
+        }
+      ]
+    },
+    "ZSRM_VEND_PAYMENT_INFO": {
+      "source": {
+        "object": "[dbo].ZSRM_VEND_PAYMENT_INFO",
+        "type": "table"
+      },
+      "graphql": {
+        "enabled": true,
+        "type": {
+          "singular": "ZSRM_VEND_PAYMENT_INFO",
+          "plural": "ZSRM_VEND_PAYMENT_INFOs"
+        }
+      },
+      "rest": {
+        "enabled": true
+      },
+      "permissions": [
+        {
+          "role": "anonymous",
+          "actions": [
+            {
+              "action": "read"
+            }
+          ]
+        }
+      ]
+    },
+    "CO_BGT_AK_CO_MJ_ALL_BGT": {
+      "source": {
+        "object": "[dbo].CO_BGT_AK_CO_MJ_ALL_BGT",
+        "type": "table"
+      },
+      "graphql": {
+        "enabled": true,
+        "type": {
+          "singular": "CO_BGT_AK_CO_MJ_ALL_BGT",
+          "plural": "CO_BGT_AK_CO_MJ_ALL_BGTs"
+        }
+      },
+      "rest": {
+        "enabled": true
+      },
+      "permissions": [
+        {
+          "role": "anonymous",
+          "actions": [
+            {
+              "action": "read"
+            }
+          ]
+        }
+      ]
+    },
+    "CO_BGT_AK_CO_MJ_CLR_ALL_BGT": {
+      "source": {
+        "object": "[dbo].CO_BGT_AK_CO_MJ_CLR_ALL_BGT",
+        "type": "table"
+      },
+      "graphql": {
+        "enabled": true,
+        "type": {
+          "singular": "CO_BGT_AK_CO_MJ_CLR_ALL_BGT",
+          "plural": "CO_BGT_AK_CO_MJ_CLR_ALL_BGTs"
+        }
+      },
+      "rest": {
+        "enabled": true
+      },
+      "permissions": [
+        {
+          "role": "anonymous",
+          "actions": [
+            {
+              "action": "read"
+            }
+          ]
+        }
+      ]
+    },
+    "CO_BGT_AK_CO_MJ_SZ_ALL_BGT": {
+      "source": {
+        "object": "[dbo].CO_BGT_AK_CO_MJ_SZ_ALL_BGT",
+        "type": "table"
+      },
+      "graphql": {
+        "enabled": true,
+        "type": {
+          "singular": "CO_BGT_AK_CO_MJ_SZ_ALL_BGT",
+          "plural": "CO_BGT_AK_CO_MJ_SZ_ALL_BGTs"
+        }
+      },
+      "rest": {
+        "enabled": true
+      },
+      "permissions": [
+        {
+          "role": "anonymous",
+          "actions": [
+            {
+              "action": "read"
+            }
+          ]
+        }
+      ]
+    },
+    "CO_BGT_AK_ST_MJ_ALL_BGT": {
+      "source": {
+        "object": "[dbo].CO_BGT_AK_ST_MJ_ALL_BGT",
+        "type": "table"
+      },
+      "graphql": {
+        "enabled": true,
+        "type": {
+          "singular": "CO_BGT_AK_ST_MJ_ALL_BGT",
+          "plural": "CO_BGT_AK_ST_MJ_ALL_BGTs"
+        }
+      },
+      "rest": {
+        "enabled": true
+      },
+      "permissions": [
+        {
+          "role": "anonymous",
+          "actions": [
+            {
+              "action": "read"
+            }
+          ]
+        }
+      ]
+    },
+    "CO_BGT_AK_ST_MJ_CLR_ALL_BGT": {
+      "source": {
+        "object": "[dbo].CO_BGT_AK_ST_MJ_CLR_ALL_BGT",
+        "type": "table"
+      },
+      "graphql": {
+        "enabled": true,
+        "type": {
+          "singular": "CO_BGT_AK_ST_MJ_CLR_ALL_BGT",
+          "plural": "CO_BGT_AK_ST_MJ_CLR_ALL_BGTs"
+        }
+      },
+      "rest": {
+        "enabled": true
+      },
+      "permissions": [
+        {
+          "role": "anonymous",
+          "actions": [
+            {
+              "action": "read"
+            }
+          ]
+        }
+      ]
+    },
+    "CO_BGT_AK_ST_MJ_SZ_ALL_BGT": {
+      "source": {
+        "object": "[dbo].CO_BGT_AK_ST_MJ_SZ_ALL_BGT",
+        "type": "table"
+      },
+      "graphql": {
+        "enabled": true,
+        "type": {
+          "singular": "CO_BGT_AK_ST_MJ_SZ_ALL_BGT",
+          "plural": "CO_BGT_AK_ST_MJ_SZ_ALL_BGTs"
+        }
+      },
+      "rest": {
+        "enabled": true
+      },
+      "permissions": [
+        {
+          "role": "anonymous",
+          "actions": [
+            {
+              "action": "read"
+            }
+          ]
+        }
+      ]
+    },
+    "SALE_DATA_CM_AKA": {
+      "source": {
+        "object": "[dbo].SALE_DATA_CM_AKA",
+        "type": "table"
+      },
+      "graphql": {
+        "enabled": true,
+        "type": {
+          "singular": "SALE_DATA_CM_AKA",
+          "plural": "SALE_DATA_CM_AKAs"
+        }
+      },
+      "rest": {
+        "enabled": true
+      },
+      "permissions": [
+        {
+          "role": "anonymous",
+          "actions": [
+            {
+              "action": "read"
+            }
+          ]
+        }
+      ]
+    },
+    "Store_plant_master_aka": {
+      "source": {
+        "object": "[dbo].Store_plant_master_aka",
+        "type": "table"
+      },
+      "graphql": {
+        "enabled": true,
+        "type": {
+          "singular": "Store_plant_master_aka",
+          "plural": "Store_plant_master_akas"
+        }
+      },
+      "rest": {
+        "enabled": true
+      },
+      "permissions": [
+        {
+          "role": "anonymous",
+          "actions": [
+            {
+              "action": "read"
+            }
+          ]
+        }
+      ]
+    },
+    "DAILY_SALE_DATA_GEN_ART_CLR_WISE": {
       "source": {
         "object": "[dbo].DAILY_SALE_DATA_GEN_ART_CLR_WISE",
         "type": "table"
@@ -1624,8 +818,8 @@
       "graphql": {
         "enabled": true,
         "type": {
-          "singular": "DAILY_SALE_DATA_GEN_ART_WISE_DRAFT",
-          "plural": "DAILY_SALE_DATA_GEN_ART_WISE_DRAFTs"
+          "singular": "DAILY_SALE_DATA_GEN_ART_CLR_WISE",
+          "plural": "DAILY_SALE_DATA_GEN_ART_CLR_WISEs"
         }
       },
       "rest": {
